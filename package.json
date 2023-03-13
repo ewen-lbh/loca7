@@ -17,7 +17,6 @@
 		"pushdb:all": "pnpm configure:dev && pnpm pushdb && pnpm configure:prod && pnpm pushdb && pnpm configure:dev",
 		"format": "prettier --plugin-search-dir . --write .",
 		"start": "node -r dotenv/config build",
-		"start:beta": "STAGE=beta ORIGIN=https://loca7.ewen.works pnpm start"
 	},
 	"devDependencies": {
 		"@faker-js/faker": "^7.6.0",
